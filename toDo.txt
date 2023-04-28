@@ -1,0 +1,1 @@
+que es el defer de la inclusion de bootstrap en el script

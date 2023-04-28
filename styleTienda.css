@@ -1,0 +1,73 @@
+
+.imagentienda {
+    background-image: url(../SmugDogs/img/perroTienda.jpg);
+
+    height: 400px;
+
+
+    background-attachment: fixed;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    filter: brightness(55%)
+}
+
+.txtTienda {
+    position: absolute;
+    z-index: 1;
+    top: 89px;
+    left: 500px;
+    font-size: 115px;
+
+    color: rgb(226, 226, 226);
+}
+
+.barraBusqueda{
+    margin-top: 10px;
+
+}
+#buscar{
+    width: 200px;
+}
+
+.cardsProducto{
+    flex-wrap: wrap;
+    gap: 15px;
+
+    margin-top: 25px;
+}
+
+.cardsProducto .card {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+    transition: 1s;
+    word-wrap: break-word;
+    padding: 1%;
+    transition: 0.3s;
+
+}
+
+.cardsProducto .card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.cardsProducto img {
+    width: 100%;
+    align-self: center;
+}
+.descripcionProducto{
+    display: none;
+}
+.tallaprecio{
+    display: flex;
+    justify-content: space-between;
+    gap :30%;
+    
+}
